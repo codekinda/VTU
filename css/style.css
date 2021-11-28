@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 187%;
+}
+.container{
+    background-color: #fff;
+    width:60%;
+    margin: auto;
+    margin-top: 150px;
+    padding:12px;
+    border-radius: 20px;
+}
+.container h1{
+    text-align: center;
+    color: navy;
+    padding: 12px;
+}
+.container form input{
+    padding: 10px;
+    margin: 10px;
+    width: 98%;
+    display: block;
+    font-size: 1em;
+}
+.container form input[type="submit"]{
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.container form input[type="submit"]:hover{
+    background-color:olive;
+    cursor:pointer;
+}
+#errors{
+    color:red;
+}
